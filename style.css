@@ -8,7 +8,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+hr {
+            border-color: rgb(66, 56, 56)
+        }
 .box1 {
     background-color: rgb(44, 43, 43);
     margin: 120px auto;
