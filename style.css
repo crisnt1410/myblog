@@ -1,0 +1,252 @@
+body {
+    background: url(picture/background/Kazuha.png);
+    color: #FFFFFF;
+    font-family: monospace, sans-serif;
+    font-size: larger;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box1 {
+    background: linear-gradient(200deg, rgba(18, 17, 17, 0.758), rgba(38, 36, 36, 0.584));
+    margin: 120px auto;
+    width: clamp(440px, 100%, 466px);
+    border-radius: 11px;
+    filter: blur(0.3px);
+    display: block;
+    scroll-behavior: smooth;
+}
+
+.general {
+    margin-left: 10px
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 22% 30% 30%;
+    padding: 12px 0 0 13px;
+}
+
+#Eris {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+#Eris:hover {
+    transition: all 1s;
+    filter: blur(2px)
+}
+
+#Eris:active {
+    filter: opacity(2);
+    transition: all 3s
+}
+
+.imagine {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 90%
+}
+
+.name_nitro {
+    display: flex;
+}
+
+.ses {
+    width: 20px;
+}
+
+.luv {
+    display: flex;
+    margin-top: -14px
+}
+
+.Chang {
+    margin-top: 15px
+}
+
+.sech {
+    display: grid;
+    grid-template-columns: 38% 38% 38%
+}
+
+.nguyen {
+    margin: 4px 4px 4px 2px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(225, 213, 213);
+
+}
+
+.nitro {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    margin: 14px;
+    height: 10px;
+    grid-gap: 15px
+}
+
+.nt_1 {
+    width: 30px
+}
+
+hr {
+    border-color: rgba(61, 50, 50, 0.068)
+}
+
+.DND,
+.nt1,
+.nt2,
+.nt3 {
+    position: relative;
+    cursor: pointer;
+    width: 30px
+}
+
+.nt_1:hover,
+.nt_2:hover {
+    width: 32px;
+    transition: all 0.2s
+}
+
+.nt_3 {
+    width: 40px
+}
+
+.nt_3:hover {
+    width: 42px;
+    transition: width 0.3ms
+}
+
+
+
+.Dev,
+.Hype {
+    position: absolute;
+    width: 240px;
+    top: 40px;
+    left: -20px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dnd_doc {
+    position: absolute;
+    width: 240px;
+    top: -37px;
+    opacity: 0;
+    pointer-events: none;
+    left: -15px
+}
+
+
+
+.nt3 .Ni {
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.DND:hover .dnd_doc,
+.nt3:hover .Ni,
+.nt2:hover .Dev,
+.nt1:hover .Hype {
+    opacity: 1;
+    transition: opacity 1.4s
+}
+
+.dnd_text,
+.ni,
+.dev,
+.Hype_text {
+    margin: 0;
+    width: 80%;
+    background-color: black;
+    padding: 6px 5px 6px 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(211, 204, 204);
+    line-height: 22px;
+
+}
+
+.Icon {
+    display: grid;
+    grid-template-columns: 8% 8% 8%;
+    justify-content: center;
+    grid-gap: 35px;
+    margin-left: -16px;
+    height: 25px
+}
+
+.Footer {
+    display: grid;
+    justify-content: center;
+    margin-left: -14px;
+}
+
+.footer {
+    margin: 0 0 10px 0;
+    cursor: pointer;
+    padding-top: 6px
+}
+
+.footer:hover {
+    text-decoration: underline;
+}
+
+.fa-youtube,
+.fa-link,
+.fa-discord {
+    color: white;
+
+}
+
+.fa-youtube:hover,
+.fa-link:hover,
+.fa-discord:hover {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.DND {
+    position: absolute;
+    bottom: -5px;
+    right: -9px
+}
+
+.dnd {
+    width: 25px;
+    background: linear-gradient(100deg, #2a2526, #3C3940);
+    padding: 7px 7px 7px 7px;
+    border-radius: 100%;
+}
+
+.dnd:hover {
+    width: 23px;
+    transition: all 0.3s;
+}
+
+.dnd:active {
+    transition: all 2s;
+    opacity: 1;
+}
+
+.dnd_doc {
+    position: absolute;
+
+}
+
+.dnd_text {
+    white-space: nowrap;
+    margin: 0;
+    padding-right: 13px
+}
